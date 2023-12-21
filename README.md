@@ -24,7 +24,7 @@ The model leverages MobileNetV2 for feature extraction and incorporates dense la
 
 The training process involves two main steps:
 
-1. **Feature Extraction:** The MobileNetV2's feature extractor is frozen, and only the classification layers are trained.
+1. **Model training:** The MobileNetV2's feature extractor is frozen, and only the classification layers are trained.
 
 2. **Fine-Tuning:** Subsequently, the classification layers are frozen, and the MobileNetV2 is fine-tuned to further refine the model.
 
